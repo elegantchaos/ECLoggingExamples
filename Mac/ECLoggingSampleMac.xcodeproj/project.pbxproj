@@ -368,7 +368,7 @@
 				226FB45713E1EA7200BF258D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		22E51FD41434E050008F8D41 /* Build configuration list for PBXNativeTarget "ECLoggingSampleMac" */ = {
 			isa = XCConfigurationList;
@@ -377,7 +377,7 @@
 				22E51FD31434E050008F8D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

@@ -411,7 +411,7 @@
 				226FB45713E1EA7200BF258D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		226FB45813E1EA7200BF258D /* Build configuration list for PBXNativeTarget "ECLoggingSampleIOS" */ = {
 			isa = XCConfigurationList;
@@ -420,7 +420,7 @@
 				226FB45A13E1EA7200BF258D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
