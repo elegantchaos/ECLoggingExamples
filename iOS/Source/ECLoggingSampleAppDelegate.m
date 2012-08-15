@@ -9,13 +9,13 @@
 #import "ECLoggingSampleAppDelegate.h"
 #import "ECLoggingSampleViewController.h"
 
-#import "ECLogging.h"
-#import "ECLogManager.h"
-#import "ECLogHandlerFile.h"
-#import "ECLogHandlerNSLog.h"
-#import "ECLogHandlerStdout.h"
-#import "ECLogHandlerStderr.h"
-#import "ECLogHandlerASL.h"
+#import <ECLogging/ECLogging.h>
+#import <ECLogging/ECLogManager.h>
+#import <ECLogging/ECLogHandlerFile.h>
+#import <ECLogging/ECLogHandlerNSLog.h>
+#import <ECLogging/ECLogHandlerStdout.h>
+#import <ECLogging/ECLogHandlerStderr.h>
+#import <ECLogging/ECLogHandlerASL.h>
 
 @interface ECLoggingSampleAppDelegate()
 
