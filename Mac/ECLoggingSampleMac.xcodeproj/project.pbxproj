@@ -12,6 +12,8 @@
 		2251BAE115DBE8BF00F2FE40 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2251BADF15DBE8BF00F2FE40 /* Release.xcconfig */; };
 		2251BAE815DBEB6400F2FE40 /* ECConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BAE615DBEB6400F2FE40 /* ECConfig.framework */; };
 		2251BAE915DBEB6400F2FE40 /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BAE715DBEB6400F2FE40 /* ECLogging.framework */; };
+		2251BB9215DC14C200F2FE40 /* ECConfig.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2251BAE615DBEB6400F2FE40 /* ECConfig.framework */; };
+		2251BB9315DC14C500F2FE40 /* ECLogging.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2251BAE715DBEB6400F2FE40 /* ECLogging.framework */; };
 		22A7235D1435DE0F00889A06 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22A723591435DE0F00889A06 /* Credits.rtf */; };
 		22A7235E1435DE0F00889A06 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A7235B1435DE0F00889A06 /* MainMenu.xib */; };
 		22A723651435E21A00889A06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 226FB46E13E1EB0B00BF258D /* main.m */; };
@@ -19,6 +21,20 @@
 		22E51FBB1434E04F008F8D41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E51FBA1434E04F008F8D41 /* Cocoa.framework */; };
 		22E51FD81434E0F0008F8D41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E51FD71434E0F0008F8D41 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2251BB8E15DC148C00F2FE40 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2251BB9215DC14C200F2FE40 /* ECConfig.framework in CopyFiles */,
+				2251BB9315DC14C500F2FE40 /* ECLogging.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2242611C149F50CD00DB6C53 /* ECLogging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECLogging.plist; path = Resources/ECLogging.plist; sourceTree = SOURCE_ROOT; };
@@ -169,6 +185,7 @@
 				22E51FB41434E04F008F8D41 /* Sources */,
 				22E51FB51434E04F008F8D41 /* Frameworks */,
 				22E51FB61434E04F008F8D41 /* Resources */,
+				2251BB8E15DC148C00F2FE40 /* CopyFiles */,
 			);
 			buildRules = (
 			);
