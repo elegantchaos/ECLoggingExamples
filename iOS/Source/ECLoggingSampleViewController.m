@@ -8,7 +8,6 @@
 
 #import "ECLoggingSampleViewController.h"
 
-#import <ECLogging/ECLogManager.h>
 #import <ECLogging/ECDebugViewController.h>
 
 @interface ECLoggingSampleViewController()
