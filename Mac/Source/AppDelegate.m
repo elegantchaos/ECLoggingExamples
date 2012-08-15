@@ -8,15 +8,6 @@
 
 #import "AppDelegate.h"
 
-#import "ECLogManager.h"
-#import "ECLogHandlerNSLog.h"
-#import "ECLogHandlerFile.h"
-#import "ECLogHandlerStdout.h"
-#import "ECLogHandlerStderr.h"
-#import "ECLogHandlerASL.h"
-#import "ECErrorReporter.h"
-#import "ECErrorPresenterHandler.h"
-
 @implementation AppDelegate
 
 #pragma mark - Channels

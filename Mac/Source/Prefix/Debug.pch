@@ -4,8 +4,6 @@
 //  liberal license: http://www.elegantchaos.com/license/liberal
 // --------------------------------------------------------------------------
 
-#ifdef __OBJC__
+#import <ECConfig/Debug.pch>
 
-#import <ECLogging/ECLogging.h>
-
-#endif
+#import "Shared.pch"
