@@ -4,6 +4,6 @@
 //  liberal license: http://www.elegantchaos.com/license/liberal
 // --------------------------------------------------------------------------
 
-#import <ECConfig/Release.pch>
+#import <ECConfig/ECConfigRelease.pch>
 
-#import "Shared.pch"
+#import "ECLoggingSampleIOSShared.pch"

@@ -81,9 +81,9 @@
 		226FB46C13E1EB0B00BF258D /* ECLoggingSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoggingSampleViewController.h; sourceTree = "<group>"; };
 		226FB46D13E1EB0B00BF258D /* ECLoggingSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECLoggingSampleViewController.m; sourceTree = "<group>"; };
 		226FB46E13E1EB0B00BF258D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		226FB47013E1EB0B00BF258D /* Shared.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shared.pch; sourceTree = "<group>"; };
-		226FB47113E1EB0B00BF258D /* Debug.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.pch; sourceTree = "<group>"; };
-		226FB47213E1EB0B00BF258D /* Release.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Release.pch; sourceTree = "<group>"; };
+		226FB47013E1EB0B00BF258D /* ECLoggingSampleIOSShared.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoggingSampleIOSShared.pch; sourceTree = "<group>"; };
+		226FB47113E1EB0B00BF258D /* ECLoggingSampleIOSDebug.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoggingSampleIOSDebug.pch; sourceTree = "<group>"; };
+		226FB47213E1EB0B00BF258D /* ECLoggingSampleIOSRelease.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoggingSampleIOSRelease.pch; sourceTree = "<group>"; };
 		22B2F8CC14F5B6A400500BDF /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,9 +187,9 @@
 		226FB46F13E1EB0B00BF258D /* Prefix */ = {
 			isa = PBXGroup;
 			children = (
-				226FB47013E1EB0B00BF258D /* Shared.pch */,
-				226FB47113E1EB0B00BF258D /* Debug.pch */,
-				226FB47213E1EB0B00BF258D /* Release.pch */,
+				226FB47013E1EB0B00BF258D /* ECLoggingSampleIOSShared.pch */,
+				226FB47113E1EB0B00BF258D /* ECLoggingSampleIOSDebug.pch */,
+				226FB47213E1EB0B00BF258D /* ECLoggingSampleIOSRelease.pch */,
 			);
 			name = Prefix;
 			path = prefix;
