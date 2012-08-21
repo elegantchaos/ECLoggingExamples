@@ -330,7 +330,6 @@
 					"$(inherited)",
 					"\"/Caches/DerivedData/ECLogging-elvnbhztigqjjabqhalnysonzams/Build/Products/Debug\"",
 				);
-				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -349,7 +348,6 @@
 					"$(inherited)",
 					"\"/Caches/DerivedData/ECLogging-elvnbhztigqjjabqhalnysonzams/Build/Products/Debug\"",
 				);
-				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",

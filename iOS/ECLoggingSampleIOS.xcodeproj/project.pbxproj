@@ -257,14 +257,12 @@
 		226FB45613E1EA7200BF258D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 			};
 			name = Debug;
 		};
 		226FB45713E1EA7200BF258D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 			};
 			name = Release;
 		};
@@ -272,7 +270,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2251BAD415DBE5A300F2FE40 /* Debug.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = resources/info.plist;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -284,7 +281,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2251BAD515DBE5A300F2FE40 /* Release.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = resources/info.plist;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
