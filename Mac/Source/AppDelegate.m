@@ -37,7 +37,7 @@ ECDefineLogChannel(OtherChannel);
 - (void)applicationWillFinishLaunching:(NSNotification *)notification
 {
     // initialise log manager
-    [ECLogManager startupWithHandlerNames:@"ECLogHandlerNSLog", @"ECLogHandlerFile", @"ECLogHandlerStdout", @"ECLogHandlerStderr", @"ECLogHandlerASL", @"ECErrorPresenterHandler", nil];
+    [ECLogManager startupWithHandlerNames:@[@"ECLogHandlerNSLog", @"ECLogHandlerFile", @"ECLogHandlerStdout", @"ECLogHandlerStderr", @"ECLogHandlerASL", @"ECErrorPresenterHandler"]];
 
     ECDebug(ApplicationChannel, @"will finish launching");
 
