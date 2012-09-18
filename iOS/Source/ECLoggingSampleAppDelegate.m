@@ -32,17 +32,14 @@ ECDefineDebugChannel(ApplicationChannel);
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    ECLogManager* lm = [ECLogManager sharedInstance];
-    [lm startup];
+    [ECLogManager startupWithHandlerNames:@[
+     @"ECLogHandlerNSLog",
+     @"ECLogHandlerFile",
+     @"ECLogHandlerFile",
+     @"ECLogHandlerStdout",
+     @"ECLogHandlerStderr",
+     @"ECLogHandlerASL"]];
 
-    // install some handlers
-    [lm registerHandler:[[[ECLogHandlerNSLog alloc] init] autorelease]];
-    [lm registerHandler:[[[ECLogHandlerFile alloc] init] autorelease]];
-    [lm registerHandler:[[[ECLogHandlerFile alloc] init] autorelease]];
-    [lm registerHandler:[[[ECLogHandlerStdout alloc] init] autorelease]];
-    [lm registerHandler:[[[ECLogHandlerStderr alloc] init] autorelease]];
-    [lm registerHandler:[[[ECLogHandlerASL alloc] init] autorelease]];
-    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
     // Override point for customization after application launch.
