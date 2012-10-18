@@ -159,6 +159,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 226FB45813E1EA7200BF258D /* Build configuration list for PBXNativeTarget "ECLoggingSampleIOS" */;
 			buildPhases = (
+				22579843163096F2004A8E70 /* ShellScript */,
 				226FB43313E1EA7200BF258D /* Sources */,
 				226FB43413E1EA7200BF258D /* Frameworks */,
 				226FB43513E1EA7200BF258D /* Resources */,
@@ -212,6 +213,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22579843163096F2004A8E70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${ECCONFIG_SCRIPTS_PATH}/update-version.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		226FB43313E1EA7200BF258D /* Sources */ = {
