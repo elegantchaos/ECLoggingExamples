@@ -32,14 +32,6 @@ ECDefineDebugChannel(ApplicationChannel);
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [ECLogManager startupWithHandlerNames:@[
-     @"ECLogHandlerNSLog",
-     @"ECLogHandlerFile",
-     @"ECLogHandlerFile",
-     @"ECLogHandlerStdout",
-     @"ECLogHandlerStderr",
-     @"ECLogHandlerASL"]];
-
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
     // Override point for customization after application launch.

@@ -48,6 +48,11 @@
 			<key>Default</key>
 			<true/>
 		</dict>
+		<key>ECLogViewHandler</key>
+		<dict>
+			<key>Default</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

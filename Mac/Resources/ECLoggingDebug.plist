@@ -38,13 +38,16 @@
 	</dict>
 	<key>Handlers</key>
 	<dict>
-		<key>Defaults</key>
-		<array>
-			<string>NSLog</string>
-			<string>File</string>
-		</array>
+		<key>ECLogHandlerFile</key>
+		<dict>
+			<key>Default</key>
+			<true/>
+		</dict>
+		<key>ECLogHandlerNSLog</key>
+		<dict>
+			<key>Default</key>
+			<true/>
+		</dict>
 	</dict>
-	<key>Test</key>
-	<string>blah</string>
 </dict>
 </plist>

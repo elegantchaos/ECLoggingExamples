@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2242612F149F5D8000DB6C53 /* ECLogging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2242612E149F5D8000DB6C53 /* ECLogging.plist */; };
 		2251BAD615DBE5A300F2FE40 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2251BAD415DBE5A300F2FE40 /* Debug.xcconfig */; };
 		2251BAD715DBE5A300F2FE40 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2251BAD515DBE5A300F2FE40 /* Release.xcconfig */; };
 		2251BB5B15DBFDC300F2FE40 /* ECConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BAD915DBE71A00F2FE40 /* ECConfig.framework */; };
 		2251BB5C15DBFDC300F2FE40 /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BADA15DBE71A00F2FE40 /* ECLogging.framework */; };
+		225C51691642E1A500794DD2 /* ECLogging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 225C51671642E1A500794DD2 /* ECLogging.plist */; };
+		225C516A1642E1A500794DD2 /* ECLoggingDebug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 225C51681642E1A500794DD2 /* ECLoggingDebug.plist */; };
 		226FB43C13E1EA7200BF258D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226FB43B13E1EA7200BF258D /* UIKit.framework */; };
 		226FB43E13E1EA7200BF258D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226FB43D13E1EA7200BF258D /* Foundation.framework */; };
 		226FB44013E1EA7200BF258D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226FB43F13E1EA7200BF258D /* CoreGraphics.framework */; };
@@ -24,11 +25,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2242612E149F5D8000DB6C53 /* ECLogging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECLogging.plist; path = Resources/ECLogging.plist; sourceTree = SOURCE_ROOT; };
 		2251BAD415DBE5A300F2FE40 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		2251BAD515DBE5A300F2FE40 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		2251BAD915DBE71A00F2FE40 /* ECConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECConfig.framework; path = "/Caches/DerivedData/ECLogging-elvnbhztigqjjabqhalnysonzams/Build/Products/Debug/ECConfig.framework"; sourceTree = "<absolute>"; };
 		2251BADA15DBE71A00F2FE40 /* ECLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECLogging.framework; path = "/Caches/DerivedData/ECLogging-elvnbhztigqjjabqhalnysonzams/Build/Products/Debug/ECLogging.framework"; sourceTree = "<absolute>"; };
+		225C51671642E1A500794DD2 /* ECLogging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECLogging.plist; path = Resources/ECLogging.plist; sourceTree = SOURCE_ROOT; };
+		225C51681642E1A500794DD2 /* ECLoggingDebug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECLoggingDebug.plist; path = Resources/ECLoggingDebug.plist; sourceTree = SOURCE_ROOT; };
 		226FB43713E1EA7200BF258D /* ECLoggingSampleIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECLoggingSampleIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		226FB43B13E1EA7200BF258D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		226FB43D13E1EA7200BF258D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -109,7 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				226FB46113E1EB0B00BF258D /* info.plist */,
-				2242612E149F5D8000DB6C53 /* ECLogging.plist */,
+				225C51671642E1A500794DD2 /* ECLogging.plist */,
+				225C51681642E1A500794DD2 /* ECLoggingDebug.plist */,
 				226FB46213E1EB0B00BF258D /* ECLoggingSampleViewController_iPad.xib */,
 				226FB46413E1EB0B00BF258D /* ECLoggingSampleViewController_iPhone.xib */,
 				226FB46613E1EB0B00BF258D /* InfoPlist.strings */,
@@ -206,9 +209,10 @@
 				226FB47413E1EB0B00BF258D /* ECLoggingSampleViewController_iPad.xib in Resources */,
 				226FB47513E1EB0B00BF258D /* ECLoggingSampleViewController_iPhone.xib in Resources */,
 				226FB47613E1EB0B00BF258D /* InfoPlist.strings in Resources */,
-				2242612F149F5D8000DB6C53 /* ECLogging.plist in Resources */,
 				2251BAD615DBE5A300F2FE40 /* Debug.xcconfig in Resources */,
 				2251BAD715DBE5A300F2FE40 /* Release.xcconfig in Resources */,
+				225C51691642E1A500794DD2 /* ECLogging.plist in Resources */,
+				225C516A1642E1A500794DD2 /* ECLoggingDebug.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +230,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${ECCONFIG_SCRIPTS_PATH}/update-version.sh\"\n";
+			shellScript = "\"${ECCONFIG_SCRIPTS_PATH}/update-version.sh\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 

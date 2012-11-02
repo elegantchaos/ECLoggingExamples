@@ -36,9 +36,6 @@ ECDefineLogChannel(OtherChannel);
 
 - (void)applicationWillFinishLaunching:(NSNotification *)notification
 {
-    // initialise log manager
-    [ECLogManager startupWithHandlerNames:@[@"ECLogHandlerNSLog", @"ECLogHandlerFile", @"ECLogHandlerStdout", @"ECLogHandlerStderr", @"ECLogHandlerASL", @"ECErrorPresenterHandler"]];
-
     ECDebug(ApplicationChannel, @"will finish launching");
 
     // example of logging a non-string object
