@@ -12,7 +12,7 @@
 
 @interface ECLoggingSampleViewController : UIViewController
 
-@property (nonatomic, retain) IBOutlet ECLogViewController* logView;
+@property (strong, nonatomic) IBOutlet ECLogViewController* logView;
 
 - (IBAction)tappedShowDebugView:(id)sender;
 - (IBAction)tappedTestOutput:(id)sender;

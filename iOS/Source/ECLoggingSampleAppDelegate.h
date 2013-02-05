@@ -12,8 +12,8 @@
 
 @interface ECLoggingSampleAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (nonatomic, retain) UIWindow* window;
-@property (nonatomic, retain) ECLoggingSampleViewController* viewController;
-@property (nonatomic, retain) UINavigationController* navigationController;
+@property (strong, nonatomic) UIWindow* window;
+@property (strong, nonatomic) ECLoggingSampleViewController* viewController;
+@property (strong, nonatomic) UINavigationController* navigationController;
 
 @end

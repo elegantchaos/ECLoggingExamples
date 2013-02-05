@@ -12,7 +12,7 @@
 
 @interface ECLoggingSampleViewController()
 
-@property (nonatomic, retain) ECDebugViewController* debugController;
+@property (strong, nonatomic) ECDebugViewController* debugController;
 
 @end
 
