@@ -422,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2277CEC316D6BE5400835964 /* MacUnitTestDebug.xcconfig */;
 			buildSettings = {
+				INFOPLIST_FILE = ../Tests/Info.plist;
 			};
 			name = Debug;
 		};
@@ -429,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2277CEC416D6BE5400835964 /* MacUnitTestRelease.xcconfig */;
 			buildSettings = {
+				INFOPLIST_FILE = ../Tests/Info.plist;
 			};
 			name = Release;
 		};

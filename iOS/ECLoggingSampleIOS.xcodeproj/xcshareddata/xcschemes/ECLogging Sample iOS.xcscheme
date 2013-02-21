@@ -32,20 +32,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "221CB5AF15DAA4C4004C6398"
-               BuildableName = "ECConfig.framework"
-               BlueprintName = "ECConfigIOS"
-               ReferencedContainer = "container:../../ECConfig/ECConfig.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "2251BA1115DBCC4A00F2FE40"
                BuildableName = "ECLogging.framework"
                BlueprintName = "ECLoggingIOS"
@@ -54,6 +40,20 @@
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2277CECA16D6C01100835964"
+               BuildableName = "ECLoggingSampleIOSTests.octest"
+               BlueprintName = "ECLoggingSampleIOSTests"
+               ReferencedContainer = "container:ECLoggingSampleIOS.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
@@ -74,6 +74,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2277CECA16D6C01100835964"
+               BuildableName = "ECLoggingSampleIOSTests.octest"
+               BlueprintName = "ECLoggingSampleIOSTests"
+               ReferencedContainer = "container:ECLoggingSampleIOS.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
