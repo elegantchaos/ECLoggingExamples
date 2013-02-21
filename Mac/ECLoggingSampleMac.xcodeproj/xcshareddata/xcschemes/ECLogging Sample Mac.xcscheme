@@ -42,6 +42,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2277CE6516D6BD3A00835964"
+               BuildableName = "ECLoggingSampleMacTests.octest"
+               BlueprintName = "ECLoggingSampleMacTests"
+               ReferencedContainer = "container:ECLoggingSampleMac.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
