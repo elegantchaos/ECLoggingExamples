@@ -4,7 +4,7 @@
 //  liberal license: http://www.elegantchaos.com/license/liberal
 // --------------------------------------------------------------------------
 
-xx
+
 
 #import <ECLogging/ECParameterisedTestCase.h>
 
