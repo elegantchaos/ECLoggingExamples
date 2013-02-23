@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2277CE6516D6BD3A00835964"
-               BuildableName = ".bundle"
+               BuildableName = "ECLoggingSampleMacTests.octest"
                BlueprintName = "ECLoggingSampleMacTests"
                ReferencedContainer = "container:ECLoggingSample.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "22E51FB71434E04F008F8D41"
-               BuildableName = ".app"
+               BuildableName = "ECLoggingSampleMac.app"
                BlueprintName = "ECLoggingSampleMac"
                ReferencedContainer = "container:ECLoggingSample.xcodeproj">
             </BuildableReference>

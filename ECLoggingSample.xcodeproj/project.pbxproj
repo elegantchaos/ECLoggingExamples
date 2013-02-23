@@ -14,7 +14,6 @@
 		2218F85716D947BE005AB648 /* RunLoopExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277CEA316D6BD8A00835964 /* RunLoopExample.m */; };
 		2218F85916D947BE005AB648 /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BAE715DBEB6400F2FE40 /* ECLogging.framework */; };
 		2218F85A16D947BE005AB648 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2277CE6716D6BD3A00835964 /* SenTestingKit.framework */; };
-		2218F85B16D947BE005AB648 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E51FBA1434E04F008F8D41 /* Cocoa.framework */; };
 		2218F85D16D947BE005AB648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2277CE7E16D6BD8A00835964 /* InfoPlist.strings */; };
 		2218F86016D947BE005AB648 /* ParameterisedTestsExample.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2277CEA216D6BD8A00835964 /* ParameterisedTestsExample.plist */; };
 		2218F86116D947BE005AB648 /* HierarchicalExample.testsuite in Resources */ = {isa = PBXBuildFile; fileRef = 2277CEBF16D6BD9F00835964 /* HierarchicalExample.testsuite */; };
@@ -41,6 +40,8 @@
 		2218F8B416D9480F005AB648 /* ECLoggingSampleViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2218F89E16D9480F005AB648 /* ECLoggingSampleViewController_iPhone.xib */; };
 		2218F8B516D9480F005AB648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2218F8A016D9480F005AB648 /* InfoPlist.strings */; };
 		2218F8B616D9480F005AB648 /* test.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2218F8A216D9480F005AB648 /* test.sh */; };
+		2218F8BB16D94D57005AB648 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2218F8BA16D94D57005AB648 /* Default-568h@2x.png */; };
+		2218F8BC16D94E3C005AB648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2218F86D16D947E6005AB648 /* UIKit.framework */; };
 		2242611D149F50CD00DB6C53 /* ECLogging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2242611C149F50CD00DB6C53 /* ECLogging.plist */; };
 		2251BAE015DBE8BF00F2FE40 /* MacDebug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2251BADE15DBE8BF00F2FE40 /* MacDebug.xcconfig */; };
 		2251BAE115DBE8BF00F2FE40 /* MacRelease.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2251BADF15DBE8BF00F2FE40 /* MacRelease.xcconfig */; };
@@ -79,30 +80,31 @@
 /* Begin PBXFileReference section */
 		2218F84C16D9461F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2218F84E16D9461F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		2218F86716D947BE005AB648 /* ECLoggingSampleMacTests copy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ECLoggingSampleMacTests copy.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2218F86716D947BE005AB648 /* ECLoggingSampleIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECLoggingSampleIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2218F86C16D947E6005AB648 /* ECLoggingSampleIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECLoggingSampleIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2218F86D16D947E6005AB648 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2218F86F16D947E6005AB648 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		2218F87116D947E6005AB648 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		2218F88916D9480F005AB648 /* ECLoggingSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = ECLoggingSampleAppDelegate.h; sourceTree = "<group>"; };
-		2218F88A16D9480F005AB648 /* ECLoggingSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = ECLoggingSampleAppDelegate.m; sourceTree = "<group>"; };
-		2218F88B16D9480F005AB648 /* ECLoggingSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = ECLoggingSampleViewController.h; sourceTree = "<group>"; };
-		2218F88C16D9480F005AB648 /* ECLoggingSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = ECLoggingSampleViewController.m; sourceTree = "<group>"; };
-		2218F88D16D9480F005AB648 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = main.m; sourceTree = "<group>"; };
-		2218F88E16D9480F005AB648 /* IOSUnitTestDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = file; path = IOSUnitTestDebug.xcconfig; sourceTree = "<group>"; };
-		2218F88F16D9480F005AB648 /* IOSUnitTestRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = file; path = IOSUnitTestRelease.xcconfig; sourceTree = "<group>"; };
-		2218F89016D9480F005AB648 /* IOSDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = IOSDebug.xcconfig; sourceTree = "<group>"; };
-		2218F89116D9480F005AB648 /* IOSRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = IOSRelease.xcconfig; sourceTree = "<group>"; };
-		2218F89316D9480F005AB648 /* ECLoggingSampleIOSShared.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = ECLoggingSampleIOSShared.pch; sourceTree = "<group>"; };
-		2218F89416D9480F005AB648 /* ECLoggingSampleIOSDebug.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = ECLoggingSampleIOSDebug.pch; sourceTree = "<group>"; };
-		2218F89516D9480F005AB648 /* ECLoggingSampleIOSRelease.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = ECLoggingSampleIOSRelease.pch; sourceTree = "<group>"; };
-		2218F89816D9480F005AB648 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = info.plist; sourceTree = "<group>"; };
-		2218F89916D9480F005AB648 /* ECLogging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ECLogging.plist; path = ../Resources/ECLogging.plist; sourceTree = "<group>"; };
-		2218F89A16D9480F005AB648 /* ECLoggingDebug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ECLoggingDebug.plist; path = ../Resources/ECLoggingDebug.plist; sourceTree = "<group>"; };
-		2218F89B16D9480F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/ECLoggingSampleViewController_iPad.xib; sourceTree = "<group>"; };
-		2218F89D16D9480F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/ECLoggingSampleViewController_iPhone.xib; sourceTree = "<group>"; };
-		2218F89F16D9480F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2218F8A216D9480F005AB648 /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.sh; sourceTree = "<group>"; };
+		2218F88916D9480F005AB648 /* ECLoggingSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoggingSampleAppDelegate.h; sourceTree = "<group>"; };
+		2218F88A16D9480F005AB648 /* ECLoggingSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECLoggingSampleAppDelegate.m; sourceTree = "<group>"; };
+		2218F88B16D9480F005AB648 /* ECLoggingSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoggingSampleViewController.h; sourceTree = "<group>"; };
+		2218F88C16D9480F005AB648 /* ECLoggingSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECLoggingSampleViewController.m; sourceTree = "<group>"; };
+		2218F88D16D9480F005AB648 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2218F88E16D9480F005AB648 /* IOSUnitTestDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IOSUnitTestDebug.xcconfig; sourceTree = "<group>"; };
+		2218F88F16D9480F005AB648 /* IOSUnitTestRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IOSUnitTestRelease.xcconfig; sourceTree = "<group>"; };
+		2218F89016D9480F005AB648 /* IOSDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = IOSDebug.xcconfig; sourceTree = "<group>"; };
+		2218F89116D9480F005AB648 /* IOSRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = IOSRelease.xcconfig; sourceTree = "<group>"; };
+		2218F89316D9480F005AB648 /* ECLoggingSampleIOSShared.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoggingSampleIOSShared.pch; sourceTree = "<group>"; };
+		2218F89416D9480F005AB648 /* ECLoggingSampleIOSDebug.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoggingSampleIOSDebug.pch; sourceTree = "<group>"; };
+		2218F89516D9480F005AB648 /* ECLoggingSampleIOSRelease.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoggingSampleIOSRelease.pch; sourceTree = "<group>"; };
+		2218F89816D9480F005AB648 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		2218F89916D9480F005AB648 /* ECLogging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECLogging.plist; path = ../Resources/ECLogging.plist; sourceTree = "<group>"; };
+		2218F89A16D9480F005AB648 /* ECLoggingDebug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECLoggingDebug.plist; path = ../Resources/ECLoggingDebug.plist; sourceTree = "<group>"; };
+		2218F89B16D9480F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ECLoggingSampleViewController_iPad.xib; sourceTree = "<group>"; };
+		2218F89D16D9480F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ECLoggingSampleViewController_iPhone.xib; sourceTree = "<group>"; };
+		2218F89F16D9480F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2218F8A216D9480F005AB648 /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = "<group>"; };
+		2218F8BA16D94D57005AB648 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2242611C149F50CD00DB6C53 /* ECLogging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECLogging.plist; path = Mac/Resources/ECLogging.plist; sourceTree = SOURCE_ROOT; };
 		2251BADE15DBE8BF00F2FE40 /* MacDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MacDebug.xcconfig; sourceTree = "<group>"; };
 		2251BADF15DBE8BF00F2FE40 /* MacRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MacRelease.xcconfig; sourceTree = "<group>"; };
@@ -143,7 +145,7 @@
 			files = (
 				2218F85916D947BE005AB648 /* ECLogging.framework in Frameworks */,
 				2218F85A16D947BE005AB648 /* SenTestingKit.framework in Frameworks */,
-				2218F85B16D947BE005AB648 /* Cocoa.framework in Frameworks */,
+				2218F8BC16D94E3C005AB648 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +277,7 @@
 		226FB42C13E1EA7200BF258D = {
 			isa = PBXGroup;
 			children = (
+				2218F8BA16D94D57005AB648 /* Default-568h@2x.png */,
 				2218F84A16D94591005AB648 /* Mac */,
 				2218F88816D947FC005AB648 /* iOS */,
 				2277CE7D16D6BD8A00835964 /* Tests */,
@@ -288,7 +291,7 @@
 			children = (
 				22E51FB81434E04F008F8D41 /* ECLoggingSampleMac.app */,
 				2277CE6616D6BD3A00835964 /* ECLoggingSampleMacTests.octest */,
-				2218F86716D947BE005AB648 /* ECLoggingSampleMacTests copy.bundle */,
+				2218F86716D947BE005AB648 /* ECLoggingSampleIOSTests.octest */,
 				2218F86C16D947E6005AB648 /* ECLoggingSampleIOS.app */,
 			);
 			name = Products;
@@ -395,7 +398,7 @@
 			);
 			name = ECLoggingSampleIOSTests;
 			productName = ECLoggingSampleMacTests;
-			productReference = 2218F86716D947BE005AB648 /* ECLoggingSampleMacTests copy.bundle */;
+			productReference = 2218F86716D947BE005AB648 /* ECLoggingSampleIOSTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		2218F86B16D947E6005AB648 /* ECLoggingSampleIOS */ = {
@@ -515,6 +518,7 @@
 				2218F8B416D9480F005AB648 /* ECLoggingSampleViewController_iPhone.xib in Resources */,
 				2218F8B516D9480F005AB648 /* InfoPlist.strings in Resources */,
 				2218F8B616D9480F005AB648 /* test.sh in Resources */,
+				2218F8BB16D94D57005AB648 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,8 +694,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2218F88E16D9480F005AB648 /* IOSUnitTestDebug.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = "ECLoggingSampleMacTests copy-Info.plist";
-				PRODUCT_NAME = "ECLoggingSampleMacTests copy";
+				GCC_PREFIX_HEADER = "IOS/Source/Prefix/$(PROJECT_NAME)IOS$(CONFIGURATION).pch";
+				INFOPLIST_FILE = Tests/Info.plist;
 			};
 			name = Debug;
 		};
@@ -699,8 +703,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2218F88F16D9480F005AB648 /* IOSUnitTestRelease.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = "ECLoggingSampleMacTests copy-Info.plist";
-				PRODUCT_NAME = "ECLoggingSampleMacTests copy";
+				GCC_PREFIX_HEADER = "IOS/Source/Prefix/$(PROJECT_NAME)IOS$(CONFIGURATION).pch";
+				INFOPLIST_FILE = Tests/Info.plist;
 			};
 			name = Release;
 		};
@@ -708,40 +712,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2218F89016D9480F005AB648 /* IOSDebug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ECLoggingSampleIOS/ECLoggingSampleIOS-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ECLoggingSampleIOS/ECLoggingSampleIOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
+				GCC_PREFIX_HEADER = "IOS/Source/Prefix/$(PROJECT_NAME)IOS$(CONFIGURATION).pch";
+				INFOPLIST_FILE = iOS/Resources/Info.plist;
 			};
 			name = Debug;
 		};
@@ -749,34 +721,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2218F89116D9480F005AB648 /* IOSRelease.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ECLoggingSampleIOS/ECLoggingSampleIOS-Prefix.pch";
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ECLoggingSampleIOS/ECLoggingSampleIOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = app;
+				GCC_PREFIX_HEADER = "IOS/Source/Prefix/$(PROJECT_NAME)IOS$(CONFIGURATION).pch";
+				INFOPLIST_FILE = iOS/Resources/Info.plist;
 			};
 			name = Release;
 		};
@@ -857,6 +803,7 @@
 				2218F88716D947E6005AB648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		226FB43113E1EA7200BF258D /* Build configuration list for PBXProject "ECLoggingSample" */ = {
 			isa = XCConfigurationList;

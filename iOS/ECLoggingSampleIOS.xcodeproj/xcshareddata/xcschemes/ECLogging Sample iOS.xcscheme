@@ -15,7 +15,7 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "226FB43613E1EA7200BF258D"
-                     BuildableName = "ECLoggingSampleIOS.app"
+                     BuildableName = ".app"
                      BlueprintName = "ECLoggingSampleIOS"
                      ReferencedContainer = "container:ECLoggingSampleIOS.xcodeproj">
                   </BuildableReference>
@@ -47,7 +47,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2277CECA16D6C01100835964"
-               BuildableName = "ECLoggingSampleIOSTests.octest"
+               BuildableName = ".bundle"
                BlueprintName = "ECLoggingSampleIOSTests"
                ReferencedContainer = "container:ECLoggingSampleIOS.xcodeproj">
             </BuildableReference>
@@ -61,7 +61,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "226FB43613E1EA7200BF258D"
-               BuildableName = "ECLoggingSampleIOS.app"
+               BuildableName = ".app"
                BlueprintName = "ECLoggingSampleIOS"
                ReferencedContainer = "container:ECLoggingSampleIOS.xcodeproj">
             </BuildableReference>
@@ -79,7 +79,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2277CECA16D6C01100835964"
-               BuildableName = "ECLoggingSampleIOSTests.octest"
+               BuildableName = ".bundle"
                BlueprintName = "ECLoggingSampleIOSTests"
                ReferencedContainer = "container:ECLoggingSampleIOS.xcodeproj">
             </BuildableReference>
@@ -89,7 +89,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "226FB43613E1EA7200BF258D"
-            BuildableName = "ECLoggingSampleIOS.app"
+            BuildableName = ".app"
             BlueprintName = "ECLoggingSampleIOS"
             ReferencedContainer = "container:ECLoggingSampleIOS.xcodeproj">
          </BuildableReference>
@@ -108,7 +108,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "226FB43613E1EA7200BF258D"
-            BuildableName = "ECLoggingSampleIOS.app"
+            BuildableName = ".app"
             BlueprintName = "ECLoggingSampleIOS"
             ReferencedContainer = "container:ECLoggingSampleIOS.xcodeproj">
          </BuildableReference>
@@ -126,7 +126,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "226FB43613E1EA7200BF258D"
-            BuildableName = "ECLoggingSampleIOS.app"
+            BuildableName = ".app"
             BlueprintName = "ECLoggingSampleIOS"
             ReferencedContainer = "container:ECLoggingSampleIOS.xcodeproj">
          </BuildableReference>
