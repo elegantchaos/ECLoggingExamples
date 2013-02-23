@@ -104,7 +104,7 @@
 		2218F89D16D9480F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ECLoggingSampleViewController_iPhone.xib; sourceTree = "<group>"; };
 		2218F89F16D9480F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2218F8A216D9480F005AB648 /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = "<group>"; };
-		2218F8BA16D94D57005AB648 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2218F8BA16D94D57005AB648 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 		2242611C149F50CD00DB6C53 /* ECLogging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECLogging.plist; path = Mac/Resources/ECLogging.plist; sourceTree = SOURCE_ROOT; };
 		2251BADE15DBE8BF00F2FE40 /* MacDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MacDebug.xcconfig; sourceTree = "<group>"; };
 		2251BADF15DBE8BF00F2FE40 /* MacRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MacRelease.xcconfig; sourceTree = "<group>"; };
@@ -242,6 +242,7 @@
 		2218F8A116D9480F005AB648 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2218F8BA16D94D57005AB648 /* Default-568h@2x.png */,
 				2218F89816D9480F005AB648 /* info.plist */,
 				2218F89916D9480F005AB648 /* ECLogging.plist */,
 				2218F89A16D9480F005AB648 /* ECLoggingDebug.plist */,
@@ -277,7 +278,6 @@
 		226FB42C13E1EA7200BF258D = {
 			isa = PBXGroup;
 			children = (
-				2218F8BA16D94D57005AB648 /* Default-568h@2x.png */,
 				2218F84A16D94591005AB648 /* Mac */,
 				2218F88816D947FC005AB648 /* iOS */,
 				2277CE7D16D6BD8A00835964 /* Tests */,
