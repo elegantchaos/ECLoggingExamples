@@ -20,8 +20,8 @@
 		226FB47713E1EB0B00BF258D /* ECLoggingSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 226FB46B13E1EB0B00BF258D /* ECLoggingSampleAppDelegate.m */; };
 		226FB47813E1EB0B00BF258D /* ECLoggingSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226FB46D13E1EB0B00BF258D /* ECLoggingSampleViewController.m */; };
 		226FB47913E1EB0B00BF258D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 226FB46E13E1EB0B00BF258D /* main.m */; };
-		22718EBD16D77CD30080EADE /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22718EBC16D77CD30080EADE /* ECLogging.framework */; };
-		22718EBE16D77D360080EADE /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22718EBC16D77CD30080EADE /* ECLogging.framework */; };
+		22718EC016D782110080EADE /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22718EBF16D782100080EADE /* ECLogging.framework */; };
+		22718EC116D782110080EADE /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22718EBF16D782100080EADE /* ECLogging.framework */; };
 		2277CE6016D6BCA400835964 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2277CE5F16D6BCA400835964 /* SenTestingKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		2277CECD16D6C01100835964 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2277CECC16D6C01100835964 /* SenTestingKit.framework */; };
 		2277CECE16D6C01100835964 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226FB43B13E1EA7200BF258D /* UIKit.framework */; };
@@ -57,7 +57,7 @@
 		226FB47013E1EB0B00BF258D /* ECLoggingSampleIOSShared.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoggingSampleIOSShared.pch; sourceTree = "<group>"; };
 		226FB47113E1EB0B00BF258D /* ECLoggingSampleIOSDebug.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoggingSampleIOSDebug.pch; sourceTree = "<group>"; };
 		226FB47213E1EB0B00BF258D /* ECLoggingSampleIOSRelease.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoggingSampleIOSRelease.pch; sourceTree = "<group>"; };
-		22718EBC16D77CD30080EADE /* ECLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECLogging.framework; path = ../../ECLogging/build/Debug/ECLogging.framework; sourceTree = "<group>"; };
+		22718EBF16D782100080EADE /* ECLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECLogging.framework; path = "../Debug-iphonesimulator/ECLogging.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2277CE5F16D6BCA400835964 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		2277CECB16D6C01100835964 /* ECLoggingSampleIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECLoggingSampleIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2277CECC16D6C01100835964 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -83,7 +83,7 @@
 				226FB43C13E1EA7200BF258D /* UIKit.framework in Frameworks */,
 				226FB43E13E1EA7200BF258D /* Foundation.framework in Frameworks */,
 				226FB44013E1EA7200BF258D /* CoreGraphics.framework in Frameworks */,
-				22718EBE16D77D360080EADE /* ECLogging.framework in Frameworks */,
+				22718EC016D782110080EADE /* ECLogging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,10 +91,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22718EBD16D77CD30080EADE /* ECLogging.framework in Frameworks */,
 				2277CECE16D6C01100835964 /* UIKit.framework in Frameworks */,
 				2277CECD16D6C01100835964 /* SenTestingKit.framework in Frameworks */,
 				2277CECF16D6C01100835964 /* Foundation.framework in Frameworks */,
+				22718EC116D782110080EADE /* ECLogging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +137,7 @@
 		226FB43A13E1EA7200BF258D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				22718EBC16D77CD30080EADE /* ECLogging.framework */,
+				22718EBF16D782100080EADE /* ECLogging.framework */,
 				2277CE5F16D6BCA400835964 /* SenTestingKit.framework */,
 				226FB43B13E1EA7200BF258D /* UIKit.framework */,
 				226FB43D13E1EA7200BF258D /* Foundation.framework */,
@@ -412,6 +412,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../ECLogging/build/Debug\"",
+					"\"/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug-iphonesimulator\"",
+					"\"/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug-iphoneos\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -427,6 +429,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../ECLogging/build/Debug\"",
+					"\"/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug-iphonesimulator\"",
+					"\"/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug-iphoneos\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -444,6 +448,8 @@
 					"\"/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug\"",
 					"\"/Caches/DerivedData/ECLogging-elvnbhztigqjjabqhalnysonzams/Build/Products/Debug\"",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug-iphonesimulator\"",
+					"\"/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug-iphoneos\"",
 				);
 				INFOPLIST_FILE = ../Tests/Info.plist;
 			};
@@ -458,6 +464,8 @@
 					"\"/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug\"",
 					"\"/Caches/DerivedData/ECLogging-elvnbhztigqjjabqhalnysonzams/Build/Products/Debug\"",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug-iphonesimulator\"",
+					"\"/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug-iphoneos\"",
 				);
 				INFOPLIST_FILE = ../Tests/Info.plist;
 			};
