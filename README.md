@@ -10,6 +10,6 @@ Dependencies
 
 For this project to build, it needs to be able to find ECLogging.framework.
 
-The best way to do this is to create a worksheet, and add both this project and the ECLogging project to it.
+The best way to do this is to create a worksheet, and add both this project and the [ECLogging project](https://github.com/elegantchaos/ECLogging) to it.
 
 Alternatively, you can check out the [ECIntegration project](https://github.com/elegantchaos/ECIntegration), which includes compatible versions of all of the EC frameworks as submodules.
