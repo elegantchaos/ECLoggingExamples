@@ -131,6 +131,7 @@
 		2277CEC316D6BE5400835964 /* MacUnitTestDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacUnitTestDebug.xcconfig; sourceTree = "<group>"; };
 		2277CEC416D6BE5400835964 /* MacUnitTestRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacUnitTestRelease.xcconfig; sourceTree = "<group>"; };
 		22970D8714F5B2FE007B254B /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = "<group>"; };
+		22A03CE816E0316A008B2608 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; wrapsLines = 1; };
 		22B0B7AB160905A600BABCB7 /* ECLoggingDebug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECLoggingDebug.plist; path = Mac/Resources/ECLoggingDebug.plist; sourceTree = SOURCE_ROOT; };
 		22E51FB81434E04F008F8D41 /* ECLoggingSampleMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECLoggingSampleMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E51FBA1434E04F008F8D41 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
@@ -278,6 +279,7 @@
 		226FB42C13E1EA7200BF258D = {
 			isa = PBXGroup;
 			children = (
+				22A03CE816E0316A008B2608 /* README.md */,
 				2218F84A16D94591005AB648 /* Mac */,
 				2218F88816D947FC005AB648 /* iOS */,
 				2277CE7D16D6BD8A00835964 /* Tests */,

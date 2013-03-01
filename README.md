@@ -1,42 +1,15 @@
-What's This?
-------------
+This project contains examples showing how to use the ECLogging framework.
 
-ECLogging provides a flexible logging system for iOS and MacOS X software to use.
+The project contains two application targets, one each for Mac and iOS, which each illustrate how to perform logging, and how to display a UI to configure it.
 
-Essentially, it's a smarter replacement for "printf" or "NSLog" style debug output.
+The project also contains two unit test targets, again Mac and iOS, which illustrate how to use ECLogging's unit test support.
 
-The problem with simply using something like NSLog is that you either end up with reams of debug output, in which case you can't see the wood for the trees, or you end up with messy source code where you're endlessly commenting logging statements in/out. This is especially bad if you work on a big project and/or with lots of developers.
-
-What all my various implementations of a logging system share is the ability to define named channels, and log handlers. These named channels can be organised functionally, rather than by "level". You don't just have to have "warning", "error", or "really bad error". You can have a channel like "stuff related to application notifications", or even "stuff relating to fixing bug #321".
-
-You can direct logging output to a particular channel. All channels are off by default, so you can add detailed logging support to any file or module without spamming the log. If I make a channel, you won't see it in your log unless you choose to turn it on. When you need to, you can turn a particular channel or group of channels on. For release versions, you can compile away all logging completely, for top performance. Or you can choose to leave some log channels in the release build.
-
-The output of log channels is directed through one or more log handlers. What log handlers give you is the ability to globally direct log output into alternative destinations. The console is one option, but you can also write a handler to log to the disk, or a remote machine, or a custom ui, or wherever.
-
-For More Information
---------------------
-
-See the wiki: https://github.com/samdeane/ECLogging/wiki/Home
-
-
-
-ECUnitTest stuff // TODO - integrate
-
-This is an example project showing how to use the ECUnitTests framework.
-
-This project builds two apps, with the catchy names "iOS Example" and "Mac Example".
-
-The actual apps are just boiler-plate, created by Xcode.
-
-Both of the apps have a unit test target too though, containing some tests.
-
-You can run the tests by selecting the "iOS Example" or "Mac Example" scheme, then choosing "Test" from the "Product" menu.
 
 Dependencies
 ------------
 
-For this project to build, it needs to be able to find ECUnitTests.framework. 
+For this project to build, it needs to be able to find ECLogging.framework.
 
-The best way to do this is to add this project and the framework project to a worksheet.
+The best way to do this is to create a worksheet, and add both this project and the ECLogging project to it.
 
-See https://github.com/elegantchaos/ECUnitTestsIntegration of how to do this.
+Alternatively, you can check out the [ECIntegration project](https://github.com/elegantchaos/ECIntegration), which includes compatible versions of all of the EC frameworks as submodules.
