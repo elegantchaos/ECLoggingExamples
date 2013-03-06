@@ -73,7 +73,7 @@
             BlueprintIdentifier = "22E51FB71434E04F008F8D41"
             BuildableName = "ECLoggingSampleMac.app"
             BlueprintName = "ECLoggingSampleMac"
-            ReferencedContainer = "container:../ECLogging/Extras/Examples/Mac/ECLoggingSampleMac.xcodeproj">
+            ReferencedContainer = "container:ECLoggingSample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -92,7 +92,7 @@
             BlueprintIdentifier = "22E51FB71434E04F008F8D41"
             BuildableName = "ECLoggingSampleMac.app"
             BlueprintName = "ECLoggingSampleMac"
-            ReferencedContainer = "container:../ECLogging/Extras/Examples/Mac/ECLoggingSampleMac.xcodeproj">
+            ReferencedContainer = "container:ECLoggingSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
