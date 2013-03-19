@@ -52,6 +52,7 @@
 		22B0B7AC160905A600BABCB7 /* ECLoggingDebug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B0B7AB160905A600BABCB7 /* ECLoggingDebug.plist */; };
 		22E51FBB1434E04F008F8D41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E51FBA1434E04F008F8D41 /* Cocoa.framework */; };
 		22E51FD81434E0F0008F8D41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E51FD71434E0F0008F8D41 /* AppDelegate.m */; };
+		22EA502216F909C800ECE398 /* ECUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22EA502116F909C800ECE398 /* ECUnitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -128,6 +129,7 @@
 		22E51FBA1434E04F008F8D41 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		22E51FD61434E0F0008F8D41 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Mac/Source/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		22E51FD71434E0F0008F8D41 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Mac/Source/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		22EA502116F909C800ECE398 /* ECUnitTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECUnitTests.framework; path = "/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug/ECUnitTests.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22EA502216F909C800ECE398 /* ECUnitTests.framework in Frameworks */,
 				2277CEC516D6BF0A00835964 /* ECLogging.framework in Frameworks */,
 				2277CE6816D6BD3A00835964 /* SenTestingKit.framework in Frameworks */,
 				2277CE6916D6BD3A00835964 /* Cocoa.framework in Frameworks */,
@@ -296,6 +299,7 @@
 		226FB43A13E1EA7200BF258D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22EA502116F909C800ECE398 /* ECUnitTests.framework */,
 				227EE59716E75954003C9957 /* Foundation.framework */,
 				2251BAE715DBEB6400F2FE40 /* ECLogging.framework */,
 				22E51FBA1434E04F008F8D41 /* Cocoa.framework */,
@@ -724,6 +728,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2277CEC316D6BE5400835964 /* MacUnitTestDebug.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug\"",
+				);
 				GCC_PREFIX_HEADER = "Mac/Source/Prefix/$(PROJECT_NAME)Mac$(CONFIGURATION).pch";
 				INFOPLIST_FILE = Tests/Info.plist;
 			};
@@ -733,6 +741,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2277CEC416D6BE5400835964 /* MacUnitTestRelease.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug\"",
+				);
 				GCC_PREFIX_HEADER = "Mac/Source/Prefix/$(PROJECT_NAME)Mac$(CONFIGURATION).pch";
 				INFOPLIST_FILE = Tests/Info.plist;
 			};

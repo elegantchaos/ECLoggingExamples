@@ -4,7 +4,7 @@
 //  liberal license: http://www.elegantchaos.com/license/liberal
 // --------------------------------------------------------------------------
 
-#import <ECLogging/ECParameterisedTestCase.h>
+#import <ECUnitTests/ECParameterisedTestCase.h>
 
 @interface ParameterisedTestsExample : ECParameterisedTestCase
 

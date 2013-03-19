@@ -6,7 +6,7 @@
 
 
 
-#import <ECLogging/ECParameterisedTestCase.h>
+#import <ECUnitTests/ECParameterisedTestCase.h>
 
 @interface RunLoopExample : ECTestCase
 {
