@@ -35,15 +35,7 @@ ECDefineDebugChannel(ApplicationChannel);
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
     // Override point for customization after application launch.
-    ECLoggingSampleViewController* view;
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) 
-    {
-        view = [[ECLoggingSampleViewController alloc] initWithNibName:@"ECLoggingSampleViewController_iPhone" bundle:nil]; 
-    }
-    else 
-    {
-        view = [[ECLoggingSampleViewController alloc] initWithNibName:@"ECLoggingSampleViewController_iPad" bundle:nil]; 
-    }
+    ECLoggingSampleViewController* view = [[ECLoggingSampleViewController alloc] initWithNibName:@"ECLoggingSampleViewController" bundle:nil];
     
     self.viewController = view;
     [view release];

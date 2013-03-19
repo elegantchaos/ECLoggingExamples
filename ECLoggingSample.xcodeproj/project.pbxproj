@@ -22,11 +22,11 @@
 		2218F87216D947E6005AB648 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2218F87116D947E6005AB648 /* CoreGraphics.framework */; };
 		2218F8B116D9480F005AB648 /* ECLogging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2218F89916D9480F005AB648 /* ECLogging.plist */; };
 		2218F8B216D9480F005AB648 /* ECLoggingDebug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2218F89A16D9480F005AB648 /* ECLoggingDebug.plist */; };
-		2218F8B316D9480F005AB648 /* ECLoggingSampleViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2218F89C16D9480F005AB648 /* ECLoggingSampleViewController_iPad.xib */; };
-		2218F8B416D9480F005AB648 /* ECLoggingSampleViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2218F89E16D9480F005AB648 /* ECLoggingSampleViewController_iPhone.xib */; };
+		2218F8B316D9480F005AB648 /* ECLoggingSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2218F89C16D9480F005AB648 /* ECLoggingSampleViewController.xib */; };
 		2218F8B516D9480F005AB648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2218F8A016D9480F005AB648 /* InfoPlist.strings */; };
 		2218F8BB16D94D57005AB648 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2218F8BA16D94D57005AB648 /* Default-568h@2x.png */; };
 		2218F8BC16D94E3C005AB648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2218F86D16D947E6005AB648 /* UIKit.framework */; };
+		221E216116E787EF00B65B1F /* ECLogging.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 221E216016E787EF00B65B1F /* ECLogging.bundle */; };
 		2242611D149F50CD00DB6C53 /* ECLogging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2242611C149F50CD00DB6C53 /* ECLogging.plist */; };
 		2251BAE915DBEB6400F2FE40 /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BAE715DBEB6400F2FE40 /* ECLogging.framework */; };
 		2251BB9315DC14C500F2FE40 /* ECLogging.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2251BAE715DBEB6400F2FE40 /* ECLogging.framework */; };
@@ -90,11 +90,11 @@
 		2218F89816D9480F005AB648 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 		2218F89916D9480F005AB648 /* ECLogging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECLogging.plist; path = ../Resources/ECLogging.plist; sourceTree = "<group>"; };
 		2218F89A16D9480F005AB648 /* ECLoggingDebug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECLoggingDebug.plist; path = ../Resources/ECLoggingDebug.plist; sourceTree = "<group>"; };
-		2218F89B16D9480F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ECLoggingSampleViewController_iPad.xib; sourceTree = "<group>"; };
-		2218F89D16D9480F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ECLoggingSampleViewController_iPhone.xib; sourceTree = "<group>"; };
+		2218F89B16D9480F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ECLoggingSampleViewController.xib; sourceTree = "<group>"; };
 		2218F89F16D9480F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2218F8A216D9480F005AB648 /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = "<group>"; };
 		2218F8BA16D94D57005AB648 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		221E216016E787EF00B65B1F /* ECLogging.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ECLogging.bundle; path = "../Debug-iphonesimulator/ECLogging.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2242611C149F50CD00DB6C53 /* ECLogging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECLogging.plist; path = Mac/Resources/ECLogging.plist; sourceTree = SOURCE_ROOT; };
 		2251BADE15DBE8BF00F2FE40 /* MacDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MacDebug.xcconfig; sourceTree = "<group>"; };
 		2251BADF15DBE8BF00F2FE40 /* MacRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MacRelease.xcconfig; sourceTree = "<group>"; };
@@ -241,9 +241,9 @@
 				2218F89816D9480F005AB648 /* info.plist */,
 				2218F89916D9480F005AB648 /* ECLogging.plist */,
 				2218F89A16D9480F005AB648 /* ECLoggingDebug.plist */,
-				2218F89C16D9480F005AB648 /* ECLoggingSampleViewController_iPad.xib */,
-				2218F89E16D9480F005AB648 /* ECLoggingSampleViewController_iPhone.xib */,
+				2218F89C16D9480F005AB648 /* ECLoggingSampleViewController.xib */,
 				2218F8A016D9480F005AB648 /* InfoPlist.strings */,
+				221E216016E787EF00B65B1F /* ECLogging.bundle */,
 			);
 			name = Resources;
 			path = iOS/resources;
@@ -498,10 +498,10 @@
 			files = (
 				2218F8B116D9480F005AB648 /* ECLogging.plist in Resources */,
 				2218F8B216D9480F005AB648 /* ECLoggingDebug.plist in Resources */,
-				2218F8B316D9480F005AB648 /* ECLoggingSampleViewController_iPad.xib in Resources */,
-				2218F8B416D9480F005AB648 /* ECLoggingSampleViewController_iPhone.xib in Resources */,
+				2218F8B316D9480F005AB648 /* ECLoggingSampleViewController.xib in Resources */,
 				2218F8B516D9480F005AB648 /* InfoPlist.strings in Resources */,
 				2218F8BB16D94D57005AB648 /* Default-568h@2x.png in Resources */,
+				221E216116E787EF00B65B1F /* ECLogging.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,20 +631,12 @@
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		2218F89C16D9480F005AB648 /* ECLoggingSampleViewController_iPad.xib */ = {
+		2218F89C16D9480F005AB648 /* ECLoggingSampleViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2218F89B16D9480F005AB648 /* en */,
 			);
-			name = ECLoggingSampleViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		2218F89E16D9480F005AB648 /* ECLoggingSampleViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2218F89D16D9480F005AB648 /* en */,
-			);
-			name = ECLoggingSampleViewController_iPhone.xib;
+			name = ECLoggingSampleViewController.xib;
 			sourceTree = "<group>";
 		};
 		2218F8A016D9480F005AB648 /* InfoPlist.strings */ = {
@@ -701,6 +693,7 @@
 				GCC_PREFIX_HEADER = "IOS/Source/Prefix/$(PROJECT_NAME)IOS$(CONFIGURATION).pch";
 				INFOPLIST_FILE = iOS/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -711,6 +704,7 @@
 				GCC_PREFIX_HEADER = "IOS/Source/Prefix/$(PROJECT_NAME)IOS$(CONFIGURATION).pch";
 				INFOPLIST_FILE = iOS/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

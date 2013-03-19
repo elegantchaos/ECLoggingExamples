@@ -8,11 +8,11 @@
 
 #import "ECLoggingSampleViewController.h"
 
-#import <ECLogging/ECDebugViewController.h>
+#import <ECLogging/ECLogging.h>
 
 @interface ECLoggingSampleViewController()
 
-@property (strong, nonatomic) ECDebugViewController* debugController;
+@property (strong, nonatomic) UIPopoverController* popover;
 
 @end
 
@@ -24,12 +24,9 @@ ECDefineDebugChannel(LoggingSampleViewControllerChannel);
 
 #pragma mark - Properties
 
-@synthesize debugController;
-@synthesize logView;
-
-- (void)dealloc 
+- (void)dealloc
 {
-    [debugController release];
+    [_popover release];
     
     [super dealloc];
 }
@@ -44,13 +41,28 @@ ECDefineDebugChannel(LoggingSampleViewControllerChannel);
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    NSURL* url = [[NSBundle mainBundle] URLForResource:@"ECLogging" withExtension:@"bundle"];
+    NSBundle* bundle = [NSBundle bundleWithURL:url];
+    ECLoggingViewController* loggingViewController = [[ECLoggingViewController alloc] initWithNibName:@"ECLoggingViewController" bundle:bundle];
+    UIPopoverController* popover = [[UIPopoverController alloc] initWithContentViewController:loggingViewController];
+
+    CGRect frame = self.view.frame;
+    const CGFloat kInset = 10.0;
+    frame.origin.x += kInset;
+    frame.origin.y += kInset;
+    frame.size.width -= kInset * 2.0;
+    frame.size.height -= kInset * 2.0;
+    loggingViewController.view.frame = frame;
     
-    self.debugController = [[[ECDebugViewController alloc] initWithNibName:nil bundle:nil] autorelease];
+    self.popover = popover;
+    [popover release];
+    [loggingViewController release];
 }
 
 - (void)viewDidUnload
 {
-    self.debugController = nil;
+    self.popover = nil;
     
     [super viewDidUnload];
 }
@@ -88,7 +100,8 @@ ECDefineDebugChannel(LoggingSampleViewControllerChannel);
 
 - (IBAction)tappedShowDebugView:(id)sender
 {
-    [self.navigationController pushViewController:self.debugController animated:YES];
+    UIButton* button = sender;
+    [self.popover presentPopoverFromRect:button.frame inView:self.view permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
 }
 
 - (IBAction)tappedTestOutput:(id)sender
