@@ -229,6 +229,7 @@
 				2218F88A16D9480F005AB648 /* ECLoggingSampleAppDelegate.m */,
 				2218F88B16D9480F005AB648 /* ECLoggingSampleViewController.h */,
 				2218F88C16D9480F005AB648 /* ECLoggingSampleViewController.m */,
+				2218F89C16D9480F005AB648 /* ECLoggingSampleViewController.xib */,
 				2218F88D16D9480F005AB648 /* main.m */,
 				2218F89216D9480F005AB648 /* Configuration */,
 				2218F89616D9480F005AB648 /* Prefix */,
@@ -244,7 +245,6 @@
 				2218F89816D9480F005AB648 /* info.plist */,
 				2218F89916D9480F005AB648 /* ECLogging.plist */,
 				2218F89A16D9480F005AB648 /* ECLoggingDebug.plist */,
-				2218F89C16D9480F005AB648 /* ECLoggingSampleViewController.xib */,
 				2218F8A016D9480F005AB648 /* InfoPlist.strings */,
 				221E216016E787EF00B65B1F /* ECLogging.bundle */,
 			);
@@ -641,6 +641,7 @@
 				2218F89B16D9480F005AB648 /* en */,
 			);
 			name = ECLoggingSampleViewController.xib;
+			path = ../resources;
 			sourceTree = "<group>";
 		};
 		2218F8A016D9480F005AB648 /* InfoPlist.strings */ = {
