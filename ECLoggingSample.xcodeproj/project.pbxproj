@@ -47,6 +47,7 @@
 		2277CEC516D6BF0A00835964 /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BAE715DBEB6400F2FE40 /* ECLogging.framework */; };
 		227EE59816E75954003C9957 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227EE59716E75954003C9957 /* Foundation.framework */; };
 		227EE59916E75954003C9957 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227EE59716E75954003C9957 /* Foundation.framework */; };
+		229628D617626A43008D887F /* ECUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22EA502116F909C800ECE398 /* ECUnitTests.framework */; };
 		22A723651435E21A00889A06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 226FB46E13E1EB0B00BF258D /* main.m */; };
 		22A7236F1435E39000889A06 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 226FB46113E1EB0B00BF258D /* info.plist */; };
 		22B0B7AC160905A600BABCB7 /* ECLoggingDebug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B0B7AB160905A600BABCB7 /* ECLoggingDebug.plist */; };
@@ -129,7 +130,7 @@
 		22E51FBA1434E04F008F8D41 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		22E51FD61434E0F0008F8D41 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Mac/Source/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		22E51FD71434E0F0008F8D41 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Mac/Source/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		22EA502116F909C800ECE398 /* ECUnitTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECUnitTests.framework; path = "/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug/ECUnitTests.framework"; sourceTree = "<absolute>"; };
+		22EA502116F909C800ECE398 /* ECUnitTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ECUnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229628D617626A43008D887F /* ECUnitTests.framework in Frameworks */,
 				2218F85916D947BE005AB648 /* ECLogging.framework in Frameworks */,
 				2218F85A16D947BE005AB648 /* SenTestingKit.framework in Frameworks */,
 				2218F8BC16D94E3C005AB648 /* UIKit.framework in Frameworks */,
@@ -675,6 +677,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2218F88E16D9480F005AB648 /* IOSUnitTestDebug.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug\"",
+				);
 				GCC_PREFIX_HEADER = "IOS/Source/Prefix/$(PROJECT_NAME)IOS$(CONFIGURATION).pch";
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
@@ -685,6 +691,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2218F88F16D9480F005AB648 /* IOSUnitTestRelease.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug\"",
+				);
 				GCC_PREFIX_HEADER = "IOS/Source/Prefix/$(PROJECT_NAME)IOS$(CONFIGURATION).pch";
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
