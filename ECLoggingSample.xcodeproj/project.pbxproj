@@ -26,7 +26,6 @@
 		2218F8B516D9480F005AB648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2218F8A016D9480F005AB648 /* InfoPlist.strings */; };
 		2218F8BB16D94D57005AB648 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2218F8BA16D94D57005AB648 /* Default-568h@2x.png */; };
 		2218F8BC16D94E3C005AB648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2218F86D16D947E6005AB648 /* UIKit.framework */; };
-		221E216116E787EF00B65B1F /* ECLogging.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 221E216016E787EF00B65B1F /* ECLogging.bundle */; };
 		2242611D149F50CD00DB6C53 /* ECLogging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2242611C149F50CD00DB6C53 /* ECLogging.plist */; };
 		2251BAE915DBEB6400F2FE40 /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BAE715DBEB6400F2FE40 /* ECLogging.framework */; };
 		2251BB9315DC14C500F2FE40 /* ECLogging.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2251BAE715DBEB6400F2FE40 /* ECLogging.framework */; };
@@ -48,6 +47,7 @@
 		227EE59816E75954003C9957 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227EE59716E75954003C9957 /* Foundation.framework */; };
 		227EE59916E75954003C9957 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227EE59716E75954003C9957 /* Foundation.framework */; };
 		229628D617626A43008D887F /* ECUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22EA502116F909C800ECE398 /* ECUnitTests.framework */; };
+		229628E01762717B008D887F /* ECLogging.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 229628DF1762717B008D887F /* ECLogging.bundle */; };
 		22A723651435E21A00889A06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 226FB46E13E1EB0B00BF258D /* main.m */; };
 		22A7236F1435E39000889A06 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 226FB46113E1EB0B00BF258D /* info.plist */; };
 		22B0B7AC160905A600BABCB7 /* ECLoggingDebug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B0B7AB160905A600BABCB7 /* ECLoggingDebug.plist */; };
@@ -96,7 +96,6 @@
 		2218F89F16D9480F005AB648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2218F8A216D9480F005AB648 /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = "<group>"; };
 		2218F8BA16D94D57005AB648 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
-		221E216016E787EF00B65B1F /* ECLogging.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ECLogging.bundle; path = "../Debug-iphonesimulator/ECLogging.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2242611C149F50CD00DB6C53 /* ECLogging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECLogging.plist; path = Mac/Resources/ECLogging.plist; sourceTree = SOURCE_ROOT; };
 		2251BADE15DBE8BF00F2FE40 /* MacDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MacDebug.xcconfig; sourceTree = "<group>"; };
 		2251BADF15DBE8BF00F2FE40 /* MacRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MacRelease.xcconfig; sourceTree = "<group>"; };
@@ -123,6 +122,7 @@
 		2277CEC316D6BE5400835964 /* MacUnitTestDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacUnitTestDebug.xcconfig; sourceTree = "<group>"; };
 		2277CEC416D6BE5400835964 /* MacUnitTestRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacUnitTestRelease.xcconfig; sourceTree = "<group>"; };
 		227EE59716E75954003C9957 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Volumes/titan/Users/Shared/Applications/Xcode/Xcode46.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		229628DF1762717B008D887F /* ECLogging.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ECLogging.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		22970D8714F5B2FE007B254B /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = "<group>"; };
 		22A03CE816E0316A008B2608 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; wrapsLines = 1; };
 		22B0B7AB160905A600BABCB7 /* ECLoggingDebug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECLoggingDebug.plist; path = Mac/Resources/ECLoggingDebug.plist; sourceTree = SOURCE_ROOT; };
@@ -243,12 +243,12 @@
 		2218F8A116D9480F005AB648 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				229628DF1762717B008D887F /* ECLogging.bundle */,
 				2218F8BA16D94D57005AB648 /* Default-568h@2x.png */,
 				2218F89816D9480F005AB648 /* info.plist */,
 				2218F89916D9480F005AB648 /* ECLogging.plist */,
 				2218F89A16D9480F005AB648 /* ECLoggingDebug.plist */,
 				2218F8A016D9480F005AB648 /* InfoPlist.strings */,
-				221E216016E787EF00B65B1F /* ECLogging.bundle */,
 			);
 			name = Resources;
 			path = iOS/resources;
@@ -507,7 +507,7 @@
 				2218F8B316D9480F005AB648 /* ECLoggingSampleViewController.xib in Resources */,
 				2218F8B516D9480F005AB648 /* InfoPlist.strings in Resources */,
 				2218F8BB16D94D57005AB648 /* Default-568h@2x.png in Resources */,
-				221E216116E787EF00B65B1F /* ECLogging.bundle in Resources */,
+				229628E01762717B008D887F /* ECLogging.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
