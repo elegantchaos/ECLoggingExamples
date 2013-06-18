@@ -47,7 +47,6 @@
 		227EE59816E75954003C9957 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227EE59716E75954003C9957 /* Foundation.framework */; };
 		227EE59916E75954003C9957 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227EE59716E75954003C9957 /* Foundation.framework */; };
 		229628D617626A43008D887F /* ECUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22EA502116F909C800ECE398 /* ECUnitTests.framework */; };
-		229628E01762717B008D887F /* ECLogging.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 229628DF1762717B008D887F /* ECLogging.bundle */; };
 		22A723651435E21A00889A06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 226FB46E13E1EB0B00BF258D /* main.m */; };
 		22A7236F1435E39000889A06 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 226FB46113E1EB0B00BF258D /* info.plist */; };
 		22B0B7AC160905A600BABCB7 /* ECLoggingDebug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B0B7AB160905A600BABCB7 /* ECLoggingDebug.plist */; };
@@ -411,6 +410,7 @@
 				2218F86816D947E6005AB648 /* Sources */,
 				2218F86916D947E6005AB648 /* Frameworks */,
 				2218F86A16D947E6005AB648 /* Resources */,
+				220A16071771090F00173510 /* Copy ECLogging Resources */,
 			);
 			buildRules = (
 			);
@@ -507,7 +507,6 @@
 				2218F8B316D9480F005AB648 /* ECLoggingSampleViewController.xib in Resources */,
 				2218F8B516D9480F005AB648 /* InfoPlist.strings in Resources */,
 				2218F8BB16D94D57005AB648 /* Default-568h@2x.png in Resources */,
-				229628E01762717B008D887F /* ECLogging.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +536,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		220A16071771090F00173510 /* Copy ECLogging Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy ECLogging Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${ECLOGGING_SCRIPTS_PATH}/copy-ios-resources.sh\"";
+		};
 		2218F86316D947BE005AB648 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
