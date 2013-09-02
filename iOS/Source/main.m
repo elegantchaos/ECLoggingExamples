@@ -11,9 +11,12 @@
 #import "ECLoggingSampleAppDelegate.h"
 
 int main(int argc, char *argv[]) {
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    int retVal = UIApplicationMain(argc, argv, nil, @"ECLoggingSampleAppDelegate");
-    [pool release];
-    return retVal;
+  int retVal;
+
+  @autoreleasepool {
+    retVal = UIApplicationMain(argc, argv, nil, @"ECLoggingSampleAppDelegate");
+  }
+
+  return retVal;
 }
 

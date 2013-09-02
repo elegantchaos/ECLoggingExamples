@@ -25,13 +25,6 @@ ECDefineLogChannel(OtherChannel);
 
 @synthesize window = _window;
 
-#pragma mark - Object Lifecycle
-
-- (void)dealloc
-{
-    [super dealloc];
-}
-
 #pragma mark - Application Lifecycle
 
 - (void)applicationWillFinishLaunching:(NSNotification *)notification

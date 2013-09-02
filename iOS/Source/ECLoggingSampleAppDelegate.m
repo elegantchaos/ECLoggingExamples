@@ -32,19 +32,17 @@ ECDefineDebugChannel(ApplicationChannel);
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     // Override point for customization after application launch.
     ECLoggingSampleViewController* view = [[ECLoggingSampleViewController alloc] initWithNibName:@"ECLoggingSampleViewController" bundle:nil];
     
     self.viewController = view;
-    [view release];
-    
+
     UINavigationController* navigation = [[UINavigationController alloc] initWithRootViewController:view];
     navigation.navigationBar.barStyle = UIBarStyleBlack;
     self.navigationController = navigation;
-    [navigation release];
-    
+
     self.window.rootViewController = navigation;
     [self.window makeKeyAndVisible];
 

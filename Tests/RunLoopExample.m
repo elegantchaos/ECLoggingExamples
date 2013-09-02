@@ -48,8 +48,6 @@
         // test to see if we got something back
         ECTestAssertNotNil(self.data);
         ECTestAssertIntegerIsGreater([self.data length], 0);
-        
-        [connection release];
     }
 }
 
