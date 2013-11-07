@@ -57,7 +57,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2218F85316D947BE005AB648"
-               BuildableName = "ECLoggingSampleIOSTests.octest"
+               BuildableName = "ECLoggingSampleIOSTests.xctest"
                BlueprintName = "ECLoggingSampleIOSTests"
                ReferencedContainer = "container:ECLoggingSample.xcodeproj">
             </BuildableReference>
@@ -75,7 +75,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2218F85316D947BE005AB648"
-               BuildableName = "ECLoggingSampleIOSTests.octest"
+               BuildableName = "ECLoggingSampleIOSTests.xctest"
                BlueprintName = "ECLoggingSampleIOSTests"
                ReferencedContainer = "container:ECLoggingSample.xcodeproj">
             </BuildableReference>
