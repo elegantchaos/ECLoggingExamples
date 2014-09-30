@@ -13,7 +13,6 @@
 		2218F85616D947BE005AB648 /* ParameterisedTestsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277CEA116D6BD8A00835964 /* ParameterisedTestsExample.m */; };
 		2218F85716D947BE005AB648 /* RunLoopExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277CEA316D6BD8A00835964 /* RunLoopExample.m */; };
 		2218F85916D947BE005AB648 /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BAE715DBEB6400F2FE40 /* ECLogging.framework */; };
-		2218F85A16D947BE005AB648 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2277CE6716D6BD3A00835964 /* SenTestingKit.framework */; };
 		2218F85D16D947BE005AB648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2277CE7E16D6BD8A00835964 /* InfoPlist.strings */; };
 		2218F86016D947BE005AB648 /* ParameterisedTestsExample.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2277CEA216D6BD8A00835964 /* ParameterisedTestsExample.plist */; };
 		2218F86116D947BE005AB648 /* HierarchicalExample.testsuite in Resources */ = {isa = PBXBuildFile; fileRef = 2277CEBF16D6BD9F00835964 /* HierarchicalExample.testsuite */; };
@@ -146,7 +145,6 @@
 				229628D617626A43008D887F /* ECUnitTests.framework in Frameworks */,
 				22C8B75C182BC8D3003EA301 /* XCTest.framework in Frameworks */,
 				2218F85916D947BE005AB648 /* ECLogging.framework in Frameworks */,
-				2218F85A16D947BE005AB648 /* SenTestingKit.framework in Frameworks */,
 				2218F8BC16D94E3C005AB648 /* UIKit.framework in Frameworks */,
 				227EE59916E75954003C9957 /* Foundation.framework in Frameworks */,
 			);
