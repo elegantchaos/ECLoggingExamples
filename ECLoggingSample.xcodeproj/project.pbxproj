@@ -35,7 +35,6 @@
 		2258586216E75F3700E2DDD4 /* ECLoggingSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2218F88C16D9480F005AB648 /* ECLoggingSampleViewController.m */; };
 		2258586316E75F3700E2DDD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2218F88D16D9480F005AB648 /* main.m */; };
 		2258586416E75F6200E2DDD4 /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BAE715DBEB6400F2FE40 /* ECLogging.framework */; };
-		2258586516E75F7100E2DDD4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2277CE6716D6BD3A00835964 /* SenTestingKit.framework */; };
 		2277CE6816D6BD3A00835964 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2277CE6716D6BD3A00835964 /* SenTestingKit.framework */; };
 		2277CE6916D6BD3A00835964 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E51FBA1434E04F008F8D41 /* Cocoa.framework */; };
 		2277CEA416D6BD8A00835964 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2277CE7E16D6BD8A00835964 /* InfoPlist.strings */; };
@@ -157,7 +156,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2258586516E75F7100E2DDD4 /* SenTestingKit.framework in Frameworks */,
 				2258586416E75F6200E2DDD4 /* ECLogging.framework in Frameworks */,
 				2218F86E16D947E6005AB648 /* UIKit.framework in Frameworks */,
 				2218F87216D947E6005AB648 /* CoreGraphics.framework in Frameworks */,

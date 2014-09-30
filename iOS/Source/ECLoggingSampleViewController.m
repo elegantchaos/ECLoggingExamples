@@ -9,6 +9,7 @@
 #import "ECLoggingSampleViewController.h"
 
 #import <ECLogging/ECLogging.h>
+#import <ECLogging/ECLogManagerIOSUISupport.h>
 
 @interface ECLoggingSampleViewController()
 
@@ -31,7 +32,7 @@ ECDefineDebugChannel(LoggingSampleViewControllerChannel);
 
 - (IBAction)tappedShowDebugView:(id)sender
 {
-    [[ECLogManager sharedInstance] showUI];
+    [ECLogManagerIOSUISupport showUI];
 }
 
 - (IBAction)tappedTestOutput:(id)sender
